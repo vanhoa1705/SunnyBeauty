@@ -1,10 +1,10 @@
 {
   "type": "postgres",
   "host": "localhost",
-  "port": 5432,
+  "port": 5434,
   "username": "postgres",
-  "password": "vanhoa00",
-  "database": "test_table",
+  "password": "postgres",
+  "database": "sunnybeauty",
   "entities": ["./dist/**/**.entity{.ts,.js}"],
   "synchronize": false,
   "logging": true,

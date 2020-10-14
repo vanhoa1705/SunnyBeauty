@@ -295,9 +295,7 @@ export class UsersService {
       );
     }
 
-    check.deletedAt = new Date();
-
-    await this.userRepository.save(check);
+    await this.userRepository.softRemove(check);
     return { isSuccess: true };
   }
 }
